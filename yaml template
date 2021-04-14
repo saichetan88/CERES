@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: AWS CloudFormation template to create a new ECS Fargate First Run stack
 Parameters:
   EcsAmiId:
-    Type: String
+    Type:: String
     Description: ECS AMI Id
   EcsInstanceType:
     Type: String
